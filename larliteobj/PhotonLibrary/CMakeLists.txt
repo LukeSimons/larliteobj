@@ -7,8 +7,7 @@ link_libraries( ${LIB_NAME} -L$ENV{BOOST_LIB} ${ROOTLIB} )
 cet_make( LIBRARIES canvas_Persistency_Common
                     NO_DICTIONARY )
 
-art_dictionary( DICTIONARY_LIBRARIES larcoreobj_GeoAlgo )
-
+art_dictionary( DICTIONARY_LIBRARIES larliteobj_PhotonLibrary )
 
 install_headers()
 install_source()
