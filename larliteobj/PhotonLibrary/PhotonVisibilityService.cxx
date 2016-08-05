@@ -97,7 +97,7 @@ namespace phot{
 
       if((!fLibraryBuildJob)&&(!fDoNotLoadLibrary)) {
 	std::string LibraryFileWithPath = std::string(getenv("LARLITE_USERDEVDIR"));
-	LibraryFileWithPath += "/SelectionTool/OpT0Finder/PhotonLibrary/dat/";
+	LibraryFileWithPath += "/larliteobj/larliteobj/PhotonLibrary/dat/"; // HARD CODED FILE PATH
 	LibraryFileWithPath += fLibraryFile;
 	if(!fParameterization) {
 	  std::cout << "PhotonVisibilityService Loading photon library from file "
