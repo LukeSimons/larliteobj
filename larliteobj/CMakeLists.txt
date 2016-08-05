@@ -1,7 +1,4 @@
 # basic source code CMakeLists.txt
 
-# art_make( )
+add_subdirectory(PhotonLibrary)
 
-install_headers()
-install_source()
-install_fhicl()
